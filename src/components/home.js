@@ -17,7 +17,7 @@ class Home extends Component {
     }
 
     async addItem(event) {
-        e.preventDefault();
+        event.preventDefault();
 
         const dataToSend = formatPostData(this.state.newItem);
 
